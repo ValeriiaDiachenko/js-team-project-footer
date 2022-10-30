@@ -21,20 +21,30 @@
     </main>
   
     <footer class="footer">
+        <div class="container">
         <div class="footer__info">
-            <p class="footer__info-text">© 2022 | All Rights Reserved | Developed with 
+            <div class="footer__copyright">
+            <p>&copy; 2022 | All Rights Reserved |&nbsp;</p>
+            </div>
+        <div class="footer__devs"> 
+                <p> Developed with </p>
+                <div class="footer__icons">
             <svg class="footer__info-icon" width="14" height="12.88">
                 <use href="./icons.svg#icon-blue-heart"></use>
             </svg>
             <svg class="footer__info-icon" width="14" height="12.88">
                 <use href="./icons.svg#icon-yellow-heart"></use>
             </svg> 
-            by <a href="" class="footer__info-link" data-modal-open>GoIT Students</a>
+               </div>
+            <span>by</span>
+             <a href="" class="footer__info-link" data-modal-open>GoIT Students</a>
+            <div class="footer__icons">
             <svg class="footer__info-icon" width="14" height="12.88">
                 <use href="./icons.svg#icon-orange-heart"></use>
             </svg>
-        </p>
-        
+        </div>
+        </div>
+        </div>
         </div>
     <!------------------Modal Team Info---------------------------->
     <div class="backdrop is-hidden" data-modal>
@@ -48,6 +58,7 @@
            
     
         </div>
+    </div>
     </div>
     </footer>
     <script defer src="./modal-team-info.js" type="module"></script>
